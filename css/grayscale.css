@@ -444,7 +444,7 @@ ol.type li a:hover {
 .portfolio-modal .modal-dialog {
   margin: 0;
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 .portfolio-modal .modal-content {
   border-radius: 0;
