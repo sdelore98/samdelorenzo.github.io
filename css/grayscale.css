@@ -121,11 +121,10 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0px;
+  padding: 100px;
   text-align: center;
   color: white;
   background: url(../img/nyc.jpg) no-repeat bottom center scroll;
-  
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
