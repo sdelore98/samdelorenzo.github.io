@@ -7,12 +7,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background: red; /* For browsers that do not support gradients */    
-  background: -webkit-linear-gradient(left top, turquoise, aqua, slateblue); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, turquoise, aqua, slateblue); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, turquoise, aqua, slateblue); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(right, turquoise, aqua, slateblue); /* Standard syntax (must be last) */
+  color: slateblue;
+  background-color: white;
 }
 
 }
