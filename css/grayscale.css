@@ -5,7 +5,7 @@
  */
 body {
   width: 100%;
-  height: 100%;
+  height: 50%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
   background-color: white;
@@ -221,11 +221,11 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.skills-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/nyc.jpg) no-repeat center center scroll;
+  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
