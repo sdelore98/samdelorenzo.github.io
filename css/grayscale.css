@@ -126,7 +126,7 @@ a:focus {
   padding: 100px;
   text-align: center;
   color: white;
-  background: url(../img/nyc.jpg) no-repeat bottom scroll 0 50%;
+  background: url(../img/nyc.jpg) no-repeat bottom scroll;
   background-position: 0% 20%;
   background-color: black;
   -webkit-background-size: cover;
