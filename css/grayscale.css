@@ -516,5 +516,11 @@ ol.type li a:hover {
   display: none;
 }
 
+.logo {
+  height: 50%;
+  width: 50%;
+	
+}
+
 
 
