@@ -144,7 +144,7 @@
             <div class="col-sm-6 col-md-3 col-lg-3 game isotope-item">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-              <div class="hover-text">
+              <div onclick="ecarOpen()" class="hover-text">
                 <h4>Ecar Vu</h4>
                 <small>Game Design</small> </div>
               <img src="img/video_game.jpg" class="img-responsive" alt="Project Title"> </a> </div>
@@ -213,7 +213,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
+                <div onclick="ecarClose()" class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
                         </div>
@@ -227,7 +227,7 @@
                                 <h2>Ecar Vu</h2>
                                 <p class="item-intro text-muted">A 2D, 2-Player Race Game Created in GameMaker Studio</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/01-large.jpg" alt="">
-                                <div><iframe src="/Ecar_Vu_HTML/index.html" width="1024" height="768" frameborder="0" scrolling="no" name="GameFrame" >Oh no, browser can't support iframe.</iframe></div>
+                                <div id="ECAR_VU"><p id="ECAR_VU1" ></p></div>
                                 <p>Reach the finish line first to win! Sounds easy? You won't think so when your opponent can invert your controls. Good luck, racers!</p>
                                 <p>
                                     <ul class="list-inline">
@@ -235,7 +235,7 @@
                                     <li>Developers: Sam DeLorenzo & Caleb Obeng</li>
                                     <li>Category: Video Game Design</li>
                                 </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <button type="button" onclick="ecarClose()" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
