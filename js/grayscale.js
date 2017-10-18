@@ -264,8 +264,8 @@ function ecarOpen(){
         var para = document.createElement("iframe");
         para.src = "http://samdelorenzo.com//Ecar_Vu_HTML/index.html"
 //        para.src = "http://www.blazetom.com"
-        para.width = "1024"
-        para.height = "768"
+        para.width = "819"
+        para.height = "614"
         para.frameborder = "0"
         para.scrolling = "no"
         para.name = "GameFrame"
