@@ -198,6 +198,54 @@ function init() {
             $('.cat .active').removeClass('active');
             $(this).addClass('active');
             var selector = $(this).attr('data-filter');
+            if(selector == '.game'){
+
+                $container.isotope({
+                    filter: ':not(.app, .web)',
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+
+
+                return false;
+            }
+
+
+            if(selector == '.app'){
+
+                $container.isotope({
+                    filter: ':not(.game, .web)',
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+
+
+                return false;
+            }
+
+
+            if(selector == '.other'){
+
+                $container.isotope({
+                    filter: ':not(.game, .app)',
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+
+
+                return false;
+            }
+
+
             $container.isotope({
                 filter: selector,
                 animationOptions: {
@@ -206,7 +254,35 @@ function init() {
                     queue: false
                 }
             });
+
             return false;
         });
 
     });
+
+function ecarOpen(){
+        var para = document.createElement("iframe");
+        para.src = "http://samdelorenzo.com//Ecar_Vu_HTML/index.html"
+//        para.src = "http://www.blazetom.com"
+        para.width = "1024"
+        para.height = "768"
+        para.frameborder = "0"
+        para.scrolling = "no"
+        para.name = "GameFrame"
+
+        var parent = document.getElementById("ECAR_VU");
+        var child = document.getElementById("ECAR_VU1");
+        parent.replaceChild(para, child);
+        para.id = "ECAR_VU1"
+    }
+
+function ecarClose(){
+        var para = document.createElement("p");
+        var node = document.createTextNode("a");
+        para.appendChild(node);
+
+        var parent = document.getElementById("ECAR_VU");
+        var child = document.getElementById("ECAR_VU1");
+        parent.replaceChild(para, child);
+        para.id = "ECAR_VU1"
+    }
