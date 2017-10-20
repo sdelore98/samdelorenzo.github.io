@@ -201,7 +201,7 @@ function init() {
             if(selector == '.game'){
 
                 $container.isotope({
-                    filter: ':not(.app, .web)',
+                    filter: ':not(.research, .web)',
                     animationOptions: {
                         duration: 750,
                         easing: 'linear',
@@ -233,7 +233,7 @@ function init() {
             if(selector == '.other'){
 
                 $container.isotope({
-                    filter: ':not(.game, .app)',
+                    filter: ':not(.game, .research)',
                     animationOptions: {
                         duration: 750,
                         easing: 'linear',
