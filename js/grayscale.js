@@ -214,7 +214,7 @@ function init() {
             }
 
 
-            if(selector == '.app'){
+            if(selector == '.research'){
 
                 $container.isotope({
                     filter: ':not(.game, .web)',
