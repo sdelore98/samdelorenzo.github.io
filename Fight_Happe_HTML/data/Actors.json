@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"battlerName":"player1_battler","characterIndex":0,"characterName":"player1_walk","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Logan_face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Logan","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Oli_battle","characterIndex":0,"characterName":"Oli_walk","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Oli_face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Oli","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]
