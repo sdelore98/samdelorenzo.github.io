@@ -52,6 +52,7 @@ a:focus {
 .light {
   font-weight: 400;
   color: white;
+  padding: 15px 0px 10px 0px;
 }
 .navbar-custom {
   margin-bottom: 0;
