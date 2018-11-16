@@ -393,7 +393,7 @@ ol.type li a:hover {
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 260px;
+	height: 240px;
 	overflow: hidden;
 	position: relative;
 }
