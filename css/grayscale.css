@@ -275,8 +275,8 @@ a:focus {
 }
 .btn-default {
   border: 1px solid #ffffff;
-  color: #FF2F92;
-  background-color: transparent;
+  color: #ffffff;
+  background-color: #FF2F92;
 }
 .btn-default:hover,
 .btn-default:focus {
