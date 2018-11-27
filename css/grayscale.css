@@ -85,7 +85,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #FF2F92;
   outline: none;
   background-color: transparent;
 }
@@ -274,16 +274,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #ffffff;
+  color: #FF2F92;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #ffffff;
   outline: none;
-  color: black;
-  background-color: #42DCA3;
+  color: #FF2F92;
+  background-color: #ffffff;
 }
 ul.banner-social-buttons {
   margin-top: 0;
