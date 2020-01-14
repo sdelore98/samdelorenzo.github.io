@@ -4277,15 +4277,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  margin-top: -40px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
 }
 .navbar-brand > img {
-  display: block;
+  display: inline-block;
   height: 500%;
-  margin-top: -40px;
   margin-left: -40px;
 }
 @media (min-width: 768px) {
