@@ -221,13 +221,12 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 0;
 }
 .skills-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  
   background-color: #337ab7;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -237,6 +236,10 @@ a:focus {
 
 .skills-list {
 	display: inline-block;
+}
+
+#about {
+	padding-top: 60px;	
 }
 
 .contact-section {
