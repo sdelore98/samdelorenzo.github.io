@@ -76,9 +76,6 @@ a:focus {
 .navbar-custom .navbar-brand:focus {
   outline: none;
 }
-.navbar-brand {
-	margin-top: -40px;
-}
 .navbar-custom a {
   color: white;
 }
